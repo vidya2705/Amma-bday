@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For Amma ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎵 MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="music/bg.mp3" type="audio/mp3">
+</audio>
+
+<div class="container">
+
+  <!-- START -->
+  <div id="start">
+    <h1>Happy Birthday Amma ❤️</h1>
+    <p>Before we start… one small surprise for you 😌</p>
+    <button onclick="startQuiz()">Start with Music 🎵</button>
+  </div>
+
+  <!-- QUIZ -->
+  <div id="quiz" class="hidden"></div>
+
+  <!-- RESULT -->
+  <div id="result" class="hidden">
+    <img id="memoryImg">
+    <p id="message"></p>
+    <button onclick="nextQuestion()">Next ➡️</button>
+  </div>
+
+  <!-- FINAL -->
+  <div id="final" class="hidden">
+    <h2>Happy Birthday Amma ❤️</h2>
+    <p id="finalMsg"></p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
